@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The stand serves its API over plain HTTP on the home network (it has no certificate). The app talks to nothing
+     else, so cleartext is allowed for the app as a whole: Android can't scope it to "any LAN address". -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true" />
+</network-security-config>

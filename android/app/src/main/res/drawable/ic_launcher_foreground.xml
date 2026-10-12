@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The stand's clock ring: a dim track, an amber arc that fills like the seconds, and a centre dot. Kept inside the
+     66 dp safe zone of the 108 dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:pathData="M54,30 A24,24 0 1,1 53.99,30"
+        android:strokeColor="#FF8A5E3C" android:strokeWidth="5" android:fillColor="#00000000" />
+    <path android:pathData="M54,30 A24,24 0 1,1 33.22,42"
+        android:strokeColor="#FFFFA94D" android:strokeWidth="6" android:strokeLineCap="round" android:fillColor="#00000000" />
+    <path android:pathData="M54,54 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0"
+        android:fillColor="#FFFFA94D" />
+</vector>

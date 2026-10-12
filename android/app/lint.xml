@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Reviewed lint decisions. -->
+<lint>
+    <!-- targetSdk 36 on purpose: 37 brings local-network permission rules that need testing on a phone first. -->
+    <issue id="OldTargetApi" severity="ignore" />
+    <!-- Gradle, AGP and Kotlin are pinned to a toolchain that is known to build; update them together, deliberately. -->
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <!-- The stand only speaks plain HTTP on the home network (network_security_config.xml). -->
+    <issue id="InsecureBaseConfiguration" severity="ignore" />
+</lint>
